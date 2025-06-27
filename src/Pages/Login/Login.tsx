@@ -12,7 +12,7 @@ const Login = () => {
   const dispatch = useAppDispatch();
   const [showPassword, setShowPassword] = useState(false);
   const [email, setEmail] = useState("admin@gmail.com");
-  const [password, setPassword] = useState("");
+  const [password, setPassword] = useState("123456");
   const [login] = useLoginMutation();
   const navigate = useNavigate();
 
